@@ -5,7 +5,6 @@ FROM $BUILD_FROM
 ENV LANG C.UTF-8
 RUN apk add --no-cache \
         jq \
-        py2-pip \
         clang \
         libgcc \
         gcc-gnat \
@@ -14,7 +13,6 @@ RUN apk add --no-cache \
         make \
         libffi-dev \
         openssl-dev \
-        python2-dev \
         mosquitto \
         mosquitto-dev \
         mosquitto-libs \
