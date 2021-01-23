@@ -2,12 +2,9 @@
 
 Repository for hass.io addons.
 
-## [Broadlink S1C]
-
-Broadlink S1C Addon : working
-
 ## [Rpi RF Receiver]
 
-RF Receiver Addon : working
+RF Receiver Addon -- cloned from Pentomax' original repo: https://github.com/pantomax/hassio-addons
+This clone drops python2 support, and cleans up dependencies to support the newer Alpine images (and thus work in newer Home Assistant installations) 
 
 
