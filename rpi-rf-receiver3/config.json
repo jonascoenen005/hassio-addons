@@ -1,8 +1,8 @@
 {
-    "name": "RPi RF Receiver 3",
-    "version": "2.05",
+    "name": "RPi RF Receiver 3 - Cloned from https://github.com/pantomax/hassio-addons/",
+    "version": "2.06",
     "slug": "rfreceiver3",
-    "description": "RPi RF Receiver 2 Script",
+    "description": "RPi RF Receiver 3 Script",
     "startup": "application",
     "arch": [
       "aarch64",
