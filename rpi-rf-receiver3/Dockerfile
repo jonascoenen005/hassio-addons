@@ -18,8 +18,6 @@ RUN apk add --no-cache \
         mosquitto-libs \
         mosquitto-clients \
         py-pip \
-        python \
-        python-dev \
         python3 \
         python3-dev \
 && pip install -U pip \
