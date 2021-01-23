@@ -22,7 +22,7 @@ RUN apk add --no-cache \
         python3-dev \
 && pip install -U pip \
 && pip3 install -U pip \
-&& pip install -U virtualenv
+&& pip install -U virtualenv --ignore-installed 
 
 RUN pip install pyaes
 RUN pip install broadlink
