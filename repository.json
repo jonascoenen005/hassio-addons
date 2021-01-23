@@ -1,6 +1,6 @@
  
 {
-    "name": "Pantomax addons repository",
-    "url": "https://github.com/pantomax/haxio",
-    "maintainer": "Pantomax <pantomaxATgmailDOTcom>"
+    "name": "Bartokajs clone of Pantomax addons repository",
+    "url": "https://github.com/CarstenHess/hassio-addons",
+    "maintainer": "Bartokaj"
 }
