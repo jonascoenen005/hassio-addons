@@ -1,0 +1,28 @@
+{
+    "name": "nexus433",
+    "version": "0.3",
+    "slug": "nexus433",
+    "description": "nexus433 Add-on",
+    "startup": "application",
+    "arch": [
+      "armv7"
+    ],
+    "boot": "auto",
+    "gpio": true,
+    "devicetree": true,
+    "devices": [
+      "/dev/gpiochip0:/dev/gpiochip0:rwm"
+    ],
+    "privileged": [
+      "SYS_RAWIO"
+    ],
+    "services": [
+      "mqtt:need"
+    ],
+    "options": {
+        "gpio_pin": 17
+    },
+    "schema": {
+      "gpio_pin": "int(2,27)"
+    }
+} 
