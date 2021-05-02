@@ -25,7 +25,7 @@ RUN apt-get update \
 # add "gpiod" for "gpioinfo"
 
 # Clone and build nexus433
-RUN git clone --branch "v1.0.1" --depth=1 https://github.com/aquaticus/nexus433 /tmp/nexus433  \
+RUN git clone --branch "v1.0.1" --depth=1 https://github.com/jonascoenen005/nexus433 /tmp/nexus433  \
 && mkdir /tmp/debug \
 && cd /tmp/debug \
 && cmake ../nexus433 -DCMAKE_BUILD_TYPE=DEBUG -DBOARD=RASPBERRYPI \
@@ -49,4 +49,4 @@ LABEL \
     io.hass.arch="${BUILD_ARCH}" \
     io.hass.type="addon" \
     io.hass.version=${BUILD_VERSION} \
-    maintainer="Carsten Hess" \
+    maintainer="Jonas Coenen" \
